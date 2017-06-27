@@ -2034,14 +2034,14 @@
 				white-space: nowrap;
 			}
 
-			.image.thumb:hover:after {
+			/*.image.thumb:hover:after {
 				opacity: 1.0;
 			}
 
 			.image.thumb:hover:before {
 				background: url("images/overlay.png"), url("images/overlay.png");
 				opacity: 1.0;
-			}
+			}*/
 
 		.image img {
 			border-radius: 0.35em;
@@ -2443,20 +2443,20 @@
 
 /* Work Item */
 
-	.work-item {
+	.work-item, .project {
 		margin: 0 0 2em 0;
 	}
 
-		.work-item .image {
+		.work-item, .project .image  {
 			margin: 0 0 1.5em 0;
 		}
 
-		.work-item h3 {
+		.work-item, .project h3 {
 			font-size: 1em;
 			margin: 0 0 0.5em 0;
 		}
 
-		.work-item p {
+		.work-item, .project p {
 			font-size: 0.8em;
 			line-height: 1.5em;
 			margin: 0;
