@@ -3898,3 +3898,7 @@
 #footer a {
 	color: white;
 }
+
+.inner .image img:hover {
+	opacity: 0.6;
+}
